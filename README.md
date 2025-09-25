@@ -51,3 +51,18 @@ npm install
 npm run dev
 ```
 4.Open http://localhost:3000 in your browser.
+
+
+## Notes
+
+The app fetches workers data from the /api/workers endpoint, with fallback to local JSON if needed.
+
+Filters, pagination, and API fetching are fully integrated.
+
+All prices displayed include GST (pricePerDay * 1.18).
+
+
+## Author
+
+### Om Gaikwad
+Final Year B.Tech – Indian Institute of Information Technology, Pune
