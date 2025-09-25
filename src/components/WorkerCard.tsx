@@ -33,5 +33,5 @@ const WorkerCard = memo(({ worker }: WorkerCardProps) => {
     </article>
   )
 })
-
+WorkerCard.displayName = "WorkerCard"
 export default WorkerCard
