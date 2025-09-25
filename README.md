@@ -41,3 +41,13 @@ A modern, responsive **Next.js** application built as part of the Solve Ease Fro
 ```bash
 git clone <repository-url>
 cd frontend_dev_assignment
+```
+2.Install dependencies:
+```bash
+npm install
+```
+3.Run the development server:
+```bash
+npm run dev
+```
+4.Open http://localhost:3000 in your browser.
