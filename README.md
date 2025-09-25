@@ -6,19 +6,19 @@ A modern, responsive **Next.js** application built as part of the Solve Ease Fro
 
 ## Features
 
-- **Workers Listing Page** with cards displaying name, service, and price/day
-- **Service & Price Filters**: filter workers by type of service or maximum price per day (including GST)
+- **Workers Listing Page** with cards displaying name, service, and price/day.
+- **Service & Price Filters**: Filter workers by type of service or maximum price per day (including GST).
 - **Pagination**:
-  - Shows 9 workers per page
-  - Sliding window of 5 pages with Previous/Next navigation
-- **API Integration**: Workers data served via `/api/workers`
-- **Skeleton Loading & Error Handling**: Friendly loading UI and error messages
-- **Image Optimization**: Lazy loading and priority loading for first 10 workers
-- **Responsive Design**: Works on mobile, tablet, and desktop
-- **Dark Mode Support**: Automatic dark/light styling
+  - Shows 9 workers per page.
+  - Sliding window of 5 pages with Previous/Next navigation.
+- **API Integration**: Workers data served via `/api/workers`.
+- **Skeleton Loading & Error Handling**: Friendly loading UI and error messages.
+- **Image Optimization**: Lazy loading and priority loading for first 10 workers.
+- **Responsive Design**: Works on mobile, tablet, and desktop.
+- **Dark Mode Support**: Automatic dark/light styling.
 - **Performance Optimizations**:
-  - Memoization to prevent unnecessary re-renders
-  - Smooth transitions and hover effects
+  - Memoization to prevent unnecessary re-renders.
+  - Smooth transitions and hover effects.
 
 ---
 
@@ -30,7 +30,7 @@ A modern, responsive **Next.js** application built as part of the Solve Ease Fro
 - **Tailwind CSS**
 - **Next/Image** for optimized image rendering
 - **API Routes** for serving workers data
-- **ESLint & Prettier** for clean code
+- **ESLint & Prettier** for clean and maintainable code
 
 ---
 
@@ -41,23 +41,3 @@ A modern, responsive **Next.js** application built as part of the Solve Ease Fro
 ```bash
 git clone <repository-url>
 cd frontend_dev_assignment
-
-2.Install dependencies:
-npm install
-
-3.Run the development server:
-npm run dev
-
-4.Open http://localhost:3000 in your browser.
-```bash
-
-Notes
-
-The app currently fetches data from the API, but fallback to local JSON is included.
-Filters, pagination, and API fetching are fully integrated.
-All prices displayed include GST (pricePerDay * 1.18).
-
-Author
-
-Om Gaikwad
-Final Year B.Tech – Indian Institute of Information Technology, Pune
